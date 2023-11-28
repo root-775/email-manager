@@ -1,0 +1,264 @@
+  .logo {
+      margin: 20px 0;
+  }
+  
+  .mail_bx {
+      /*background-color: #1d8cc1;*/
+      background-image: url(img/banner.jpg);
+      background-position: 100% 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      font-family: 'Roboto', sans-serif;
+  }
+  
+  .main_ct_bx {
+      background: #fff;
+      padding: 30px 50px;
+      border: double 11px #e6e6e6;
+  }
+  
+  .heading_txt {
+      text-align: center;
+      text-transform: uppercase;
+      color: #05dbfd;
+      font-size: 35px;
+      font-weight: 700;
+      padding: 15px 0;
+  }
+  
+  .heading_txt span {
+      display: block;
+      color: #fff;
+      font-size: 30px;
+      letter-spacing: 1px;
+      font-weight: 300;
+  }
+  
+  .maid_dls {}
+  
+  .maid_dls h2 {
+      color: #232a34;
+      font-weight: 600;
+      margin-bottom: 25px;
+      text-align: center;
+      position: relative;
+      margin: 0 0 50px 0;
+  }
+  
+  .maid_dls h2::before {
+      content: '';
+      width: 100px;
+      height: 2px;
+      background: #d8d8d8;
+      position: absolute;
+      left: 50%;
+      bottom: -15px;
+      transform: translate(-50%, -50%);
+  }
+  
+  .maid_dls h2::after {
+      content: '';
+      width: 14px;
+      height: 14px;
+      background: #d8d8d8;
+      position: absolute;
+      left: 49%;
+      bottom: -20px;
+      transform: rotate(45deg);
+  }
+  
+  .maid_dls p {
+      color: #232a34;
+      font-size: 15px;
+      text-align: center;
+  }
+  
+  .card_tp {
+      width: 100%;
+      display: table;
+      border: 2px solid #c5c5c5;
+  }
+  
+  .card_tp h3 {
+      margin: 0;
+      padding: 15px 10px;
+      background: #fff1f1;
+      border-bottom: 2px solid #c5c5c5;
+      color: #232a34;
+      font-weight: 700;
+  }
+  
+  .pd10 {
+      padding: 10px;
+  }
+  
+  .tp_nm {
+      color: #232a34;
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+  }
+  
+  input.inp_ln {
+      border: 0;
+      border-bottom: 2px solid;
+      width: 84%;
+  }
+  
+  .bx_11 {
+      border-bottom: 2px solid #c5c5c5;
+      padding: 5px 10px;
+  }
+  
+  .nm_mm {
+      border-bottom: 2px solid #c5c5c5;
+      padding: 10px 10px;
+  }
+  
+  .nm_mm input {
+      border: 0;
+      border-bottom: 2px solid #c5c5c5;
+  }
+  
+  .bdr_nn {
+      border-bottom: 0;
+  }
+  
+  .dec_txt {
+      padding: 0 8px;
+  }
+  
+  .dec_txt p {
+      font-size: 14px;
+      font-weight: 600;
+      padding: 15px 0 0 0;
+  }
+  
+  .dec_txt input {
+      border: 0;
+      border-bottom: 2px solid #c5c5c5;
+  }
+  
+  .dls_tt {}
+  
+  .dls_tt input {
+      border: 0;
+      border-bottom: 2px solid #c5c5c5;
+      width: 80%;
+  }
+  
+  .dls_tt .tt_nm {
+      font-weight: 600;
+  }
+  
+  .line_clr {
+      border-bottom: 2px solid #e3c388;
+      margin: 15px 0;
+  }
+  
+  .lt_ofer {
+      background: #05dbfd;
+      text-align: center;
+      color: #fff;
+      padding: 8px 0;
+      font-size: 20px;
+      font-weight: 600;
+      position: relative;
+  }
+  
+  .lt_ofer::before {
+      content: '';
+      border-left: 20px solid #fff;
+      border-right: 20px solid transparent;
+      border-top: 22px solid #05dbfd;
+      border-bottom: 22px solid #05dbfd;
+      position: absolute;
+      left: 0;
+      top: 0;
+  }
+  
+  .lt_ofer::after {
+      content: '';
+      border-left: 20px solid transparent;
+      border-right: 20px solid #fff;
+      border-top: 22px solid #05dbfd;
+      border-bottom: 22px solid #05dbfd;
+      position: absolute;
+      right: 0;
+      top: 0;
+  }
+  
+  .bnx_bx {}
+  
+  .bnx_bx p {
+      margin: 0;
+      color: #685e66;
+      font-weight: 600;
+      font-size: 20px;
+  }
+  
+  .bnx_bx h4 {
+      margin: 0;
+      font-size: 20px;
+      color: #05dbfd;
+      font-weight: 600;
+  }
+  
+  .btm_aply button {
+      width: 100%;
+      border: 0;
+      background: #ff5252de;
+      color: #fff;
+      line-height: 50px;
+      font-size: 20px;
+      font-weight: 600;
+      border-radius: 4px;
+      margin-top: 15px;
+      text-transform: uppercase;
+  }
+  
+  .footer_txt {
+      text-align: center;
+      margin: 35px 0;
+  }
+  
+  .footer_txt h3 {
+      font-size: 16px;
+      color: #fff;
+      margin: 0 0 4px 0;
+  }
+  
+  .footer_txt p {
+      margin: 0;
+      font-size: 14px;
+      color: #fff;
+      font-weight: 600;
+  }
+  
+  .footer_txt a {
+      color: #fff;
+      text-decoration: underline;
+  }
+  
+  .card_tp h3 span {
+      float: right;
+  }
+  
+  input.email_stt {
+      font-size: 14px;
+      line-height: 27px;
+      padding: 0 10px;
+      margin: 0;
+  }
+  
+  .dls_text_area {
+      margin-top: 5px;
+  }
+  
+  .dls_text_area label {}
+  
+  .dls_text_area textarea {
+      width: 100%;
+      min-height: 100px;
+      border: 2px solid #c5c5c5;
+  }
